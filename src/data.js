@@ -130,89 +130,49 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.jpg";
-import Proyek2 from "/assets/proyek/proyek2.jpg";
-import Proyek3 from "/assets/proyek/proyek3.jpg";
-import Proyek4 from "/assets/proyek/proyek4.jpg";
-import Proyek5 from "/assets/proyek/proyek5.jpg";
-import Proyek6 from "/assets/proyek/proyek6.jpg";
+import Proyek1 from "/assets/proyek/Project-1.webp";
+import Proyek2 from "/assets/proyek/Project-2.webp";
+import Proyek3 from "/assets/proyek/Project-3.webp";
 
 export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "AIS Detection App",
-    subtitle: "A mobile application powered by Artificial Intelligence...",
+    title: "Chill Movies Streaming Platform",
+    subtitle: "A modern movie streaming platform with a dedicated admin dashboard.",
     fullDescription:
-      "A mobile application powered by Artificial Intelligence and Machine Learning, developed to assist in the early detection of Adolescent Idiopathic Scoliosis (AIS). By analyzing patient data and patterns, the app provides predictions that can help doctors and patients take preventive measures. This project demonstrates the role of AI in modern healthcare by improving accuracy, accessibility, and efficiency in medical diagnosis.",
+      "A comprehensive movie streaming web application engineered for a seamless viewing experience. Features a dedicated admin dashboard for effortless content management. The platform leverages TanStack Query for highly efficient server-state data fetching and Redux for robust global state management. Seamlessly integrated with Supabase acting as a Backend-as-a-Service (BaaS) for authentication and database management to ensure high performance and scalability.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/DimasB1221/Chill-Movies-2.git",
+    demo: "https://chill-movies-2.vercel.app",
     dad: "100",
   },
   {
     id: 2,
     image: Proyek2,
-    title: "IoT Air Quality Monitoring",
+    title: "VideoBelajar E-Learning Platform",
     subtitle:
-      "A smart IoT system designed to measure and analyze air quality...",
+      "An interactive educational platform designed for seamless video course delivery.",
     fullDescription:
-      "A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
+      "An interactive online learning platform tailored to deliver high-quality educational video content effectively. Utilizing TanStack Query for optimized asynchronous data fetching and caching, the application guarantees a smooth, lag-free user browsing experience. The backend architecture is powered entirely by Supabase as a BaaS, providing secure authentication and robust data storage for tracking student progress across all devices.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/DimasB1221/VideoBelajar-react-inter-2.git",
+    demo: "https://videobelajar-blond.vercel.app",
     dad: "200",
   },
   {
     id: 3,
     image: Proyek3,
-    title: "IoT Heartbeat Monitoring System",
+    title: "Productivity Task Manager",
     subtitle:
-      "An IoT-based healthcare project developed to measure and monitor...",
+      "A sleek and intuitive task management application built to boost daily productivity.",
     fullDescription:
-      "An IoT-based healthcare project developed to measure and monitor heart rate in real-time. The system connects sensors to a local web server, enabling users and healthcare providers to track data directly from a web interface. This project highlights the integration of hardware and software to create efficient medical solutions that can be applied in local clinics or personal health monitoring.",
+      "A sleek and intuitive task management application designed to help users organize their routines and boost personal productivity. The app allows users to seamlessly add, edit, track, and complete their daily tasks within a clean, user-friendly interface. This project highlights strong frontend state management capabilities and modern UI/UX principles to create a highly functional everyday utility.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/DimasB1221/To-do-list.git",
     dad: "300",
-  },
-  {
-    id: 4,
-    image: Proyek4,
-    title: "Personal Web Portfolio",
-    subtitle:
-      "An interactive web portfolio showcasing my professional journey...",
-    fullDescription:
-      "An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
-    borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
-    dad: "400",
-  },
-  {
-    id: 5,
-    image: Proyek5,
-    title: "Color Blindness Detection App",
-    subtitle:
-      "A cross-platform application available on both mobile and desktop...",
-    fullDescription:
-      "A cross-platform application available on both mobile and desktop, created to help identify different types of color blindness through color recognition tests. The app provides users with instant results, making it useful for educational, medical, and self-assessment purposes. Its intuitive design and accessibility aim to support individuals in understanding and managing color vision deficiencies.",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
-    dad: "500",
-  },
-  {
-    id: 6,
-    image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle:
-      "A fully functional website designed for a coffee shop, enabling...",
-    fullDescription:
-      "A fully functional website designed for a coffee shop, enabling customers to explore the menu, learn about the shop’s story, and place orders online. The project focused on creating an attractive and modern interface, integrating responsive design for mobile and desktop, and ensuring smooth navigation for users. This website not only improved customer experience but also supported the coffee shop’s digital presence and business growth.",
-    borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
-    dad: "600",
   },
 ];

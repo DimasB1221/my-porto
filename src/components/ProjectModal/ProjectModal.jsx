@@ -1,5 +1,25 @@
 import React, { useState, useEffect } from 'react';
-import { FiX, FiGithub } from 'react-icons/fi'; // Install react-icons jika belum: npm install react-icons
+import { FiX, FiGithub, FiExternalLink } from 'react-icons/fi';
+
+const ActionButton = ({ href, icon: Icon, text, variant = "primary" }) => {
+  const baseStyle = "inline-flex items-center justify-center gap-2 font-semibold p-3 px-5 rounded-full w-full cursor-pointer transition-colors border";
+  const variants = {
+    primary: "bg-violet-600 border-transparent hover:bg-violet-700 text-white",
+    secondary: "bg-transparent border-violet-600 text-violet-400 hover:bg-violet-600/10",
+  };
+
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`${baseStyle} ${variants[variant]}`}
+    >
+      <Icon />
+      <span>{text}</span>
+    </a>
+  );
+};
 
 const ProjectModal = ({ isOpen, onClose, project }) => {
   // State untuk mengontrol animasi penutupan
@@ -65,15 +85,24 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                 {project.fullDescription}
             </p>
 
-            <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center justify-center gap-2 font-semibold bg-violet-600 p-3 px-5 rounded-full w-full cursor-pointer border border-transparent hover:bg-violet-700 transition-colors"
-            >
-                <FiGithub />
-                <span>Source Code</span>
-            </a>
+            <div className="mt-4 flex flex-col sm:flex-row gap-4 w-full">
+                {project.demo && (
+                  <ActionButton 
+                    href={project.demo} 
+                    icon={FiExternalLink} 
+                    text="Live Demo" 
+                    variant="primary" 
+                  />
+                )}
+                {project.url && (
+                  <ActionButton 
+                    href={project.url} 
+                    icon={FiGithub} 
+                    text="Source Code" 
+                    variant={project.demo ? "secondary" : "primary"} 
+                  />
+                )}
+            </div>
         </div>
       </div>
        {/* CSS untuk animasi */}
