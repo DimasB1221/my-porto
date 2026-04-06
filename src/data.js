@@ -14,7 +14,7 @@ import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
+import Tools9 from "/assets/tools/supabase.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools13 from "/assets/tools/firebase.png";
 import Tools14 from "/assets/tools/html.png";
@@ -82,8 +82,8 @@ export const listTools = [
   {
     id: 9,
     gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
+    nama: "Supabase",
+    ket: "Backend as Service",
     dad: "900",
   },
   {
@@ -139,7 +139,8 @@ export const listProyek = [
     id: 1,
     image: Proyek1,
     title: "Chill Movies Streaming Platform",
-    subtitle: "A modern movie streaming platform with a dedicated admin dashboard.",
+    subtitle:
+      "A modern movie streaming platform with a dedicated admin dashboard.",
     fullDescription:
       "A comprehensive movie streaming web application engineered for a seamless viewing experience. Features a dedicated admin dashboard for effortless content management. The platform leverages TanStack Query for highly efficient server-state data fetching and Redux for robust global state management. Seamlessly integrated with Supabase acting as a Backend-as-a-Service (BaaS) for authentication and database management to ensure high performance and scalability.",
     borderColor: "#3B82F6",

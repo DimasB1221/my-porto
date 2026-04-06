@@ -79,7 +79,7 @@ function App() {
             </div>
             <h1 className="text-5xl font-bold mb-6">
               <ShinyText
-                text="Hi I'm Faris Edrik Prayoga"
+                text="Hi I'm Dimas Bintang Ramadhani"
                 disabled={false}
                 speed={3}
                 className="custom-class"
@@ -153,7 +153,7 @@ function App() {
                 </h2>
 
                 <BlurText
-                  text="I’m Dimas Bintang Ramadhani, a junior frontend developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
+                  text="I’m Dimas Bintang Ramadhani, an Information Systems student at Universitas Terbuka with a strong passion for web development. I am currently finalizing an intensive coding bootcamp, focusing on React and Next.js. My experience with distance learning has cultivated strong self-discipline and a knack for independent problem-solving. As a growth-oriented learner, I am eager to bridge the gap between academic theory and modern frontend practices, and I'm ready to contribute my dedication and evolving skills to a collaborative team."
                   delay={150}
                   animateBy="words"
                   direction="top"
@@ -163,7 +163,7 @@ function App() {
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3<span className="text-violet-500"></span>
+                      3+<span className="text-violet-500"></span>
                     </h1>
                     <p>Project Finished</p>
                   </div>
@@ -178,6 +178,7 @@ function App() {
                     data-aos-duration="1000"
                     data-aos-delay="600"
                     data-aos-once="true"
+                    className="hide"
                   >
                     <h1 className="text-3xl md:text-4xl mb-1">
                       0.00<span className="text-violet-500">/4.00</span>
