@@ -46,7 +46,7 @@ export default function ChatRoom() {
   };
 
   return (
-    <div className="bg-zinc-900 border border-gray-700 p-6 rounded-xl shadow-lg max-w-xl mx-auto mt-5">
+    <div className="bg-zinc-900 border border-gray-700 p-6 sm:p-10 rounded-md shadow-lg w-full h-full flex flex-col">
       <h2 className="text-2xl font-bold text-center mb-4 text-white">💬 Chat Room</h2>
 
       {/* Header user */}
@@ -66,7 +66,7 @@ export default function ChatRoom() {
       )}
 
       {/* Area pesan */}
-      <div className="h-72 overflow-y-auto border border-gray-700 p-3 rounded-lg bg-zinc-800 mb-4 space-y-3">
+      <div className="flex-1 overflow-y-auto border border-gray-700 p-3 rounded-lg bg-zinc-800 mb-4 space-y-3 min-h-[250px]">
         {messages.map((msg) => (
           <div
             key={msg.id}
@@ -121,7 +121,7 @@ export default function ChatRoom() {
         <div className="flex flex-col items-center justify-center gap-4">
           <button
             onClick={loginWithGoogle}
-            className="flex items-center gap-3 bg-white text-gray-800 px-5 py-2 rounded-full shadow hover:bg-gray-200 transition"
+            className="flex items-center gap-2 sm:gap-3 bg-white text-gray-800 px-4 sm:px-5 py-2 rounded-full shadow hover:bg-gray-200 transition whitespace-nowrap flex-shrink-0 text-sm sm:text-base w-auto"
           >
             <img
               src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"

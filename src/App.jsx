@@ -178,7 +178,7 @@ function App() {
                     data-aos-duration="1000"
                     data-aos-delay="600"
                     data-aos-once="true"
-                    className="hide"
+                    className="hidden"
                   >
                     <h1 className="text-3xl md:text-4xl mb-1">
                       0.00<span className="text-violet-500">/4.00</span>
@@ -322,7 +322,7 @@ function App() {
           <div className="flex flex-col md:flex-row gap-8">
             {/* Chat Room di kiri */}
             <div
-              className="flex-1 bg-zinc-800 p-6 rounded-md"
+              className="flex-1 w-full min-w-0"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="400"
@@ -332,11 +332,11 @@ function App() {
             </div>
 
             {/* Contact Form di kanan */}
-            <div className="flex-1">
+            <div className="flex-1 w-full min-w-0">
               <form
                 action="https://formsubmit.co/rissoppa21@gmail.com"
                 method="POST"
-                className="bg-zinc-800 p-10 w-full rounded-md"
+                className="bg-zinc-800 p-6 sm:p-10 w-full rounded-md"
                 autoComplete="off"
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -350,7 +350,7 @@ function App() {
                       type="text"
                       name="Name"
                       placeholder="Input Name..."
-                      className="border border-zinc-500 p-2 rounded-md"
+                      className="border border-zinc-500 p-2 rounded-md w-full"
                       required
                     />
                   </div>
@@ -360,7 +360,7 @@ function App() {
                       type="email"
                       name="Email"
                       placeholder="Input Email..."
-                      className="border border-zinc-500 p-2 rounded-md"
+                      className="border border-zinc-500 p-2 rounded-md w-full"
                       required
                     />
                   </div>
@@ -371,10 +371,9 @@ function App() {
                     <textarea
                       name="message"
                       id="message"
-                      cols="45"
                       rows="7"
                       placeholder="Message..."
-                      className="border border-zinc-500 p-2 rounded-md"
+                      className="border border-zinc-500 p-2 rounded-md w-full"
                       required
                     ></textarea>
                   </div>
