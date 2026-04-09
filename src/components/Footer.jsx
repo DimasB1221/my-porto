@@ -40,6 +40,9 @@ const Footer = () => {
           <a href="https://github.com/DimasB1221">
             <i className="ri-github-fill ri-2x"></i>
           </a>
+          <a href="https://www.linkedin.com/in/dimas-bintang/">
+            <i className="ri-linkedin-fill ri-2x"></i>
+          </a>
           <a href="https://www.instagram.com/dimasbntng_1/">
             <i className="ri-instagram-fill ri-2x"></i>
           </a>
